@@ -38,6 +38,7 @@ var createNewTaskElement = function (taskString) {
   var deleteButtonImg = document.createElement("img");
   deleteButtonImg.className = "task-delete-icon";
   deleteButtonImg.src = "./remove.svg";
+  deleteButtonImg.alt = "Remove task icon";
 
   deleteButton.appendChild(deleteButtonImg);
   listItem.appendChild(checkBox);
