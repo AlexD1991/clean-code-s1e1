@@ -129,7 +129,7 @@ button {
   transform: rotateZ(0);
 }
 
-.completed-tasks .task__name {
+.tasks-completed .task__name {
   text-decoration: line-through;
   color: #888;
 }
