@@ -138,12 +138,12 @@ button {
   display: none;
 }
 
-.edit-mode .task__input {
+.task_edit-mode .task__input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task__name {
+.task_edit-mode .task__name {
   display: none;
 }
 

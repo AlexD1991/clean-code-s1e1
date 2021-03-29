@@ -74,8 +74,8 @@ var editTask = function () {
   var editInput = listItem.querySelector("input[type=text]");
   var label = listItem.querySelector("label");
   var editBtn = listItem.querySelector(".task__edit-btn");
-  var containsClass = listItem.classList.contains("edit-mode");
-  //If class of the parent is .edit-mode
+  var containsClass = listItem.classList.contains("task_edit-mode");
+  //If class of the parent is .task_edit-mode
   if (containsClass) {
     //switch to .edit-mode
     //label becomes the inputs value.
@@ -87,7 +87,7 @@ var editTask = function () {
   }
 
   //toggle .edit-mode on the parent.
-  listItem.classList.toggle("edit-mode");
+  listItem.classList.toggle("task_edit-mode");
 };
 
 //Delete task.
